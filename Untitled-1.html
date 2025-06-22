@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minha Loja no Instagram</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .logo {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .produto {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 15px;
+      text-align: center;
+    }
+
+    .produto img {
+      width: 100%;
+      border-radius: 10px;
+      max-height: 200px;
+      object-fit: cover;
+    }
+
+    .produto h3 {
+      margin: 10px 0 5px;
+      font-size: 1.2rem;
+    }
+
+    .produto p {
+      color: #777;
+      margin-bottom: 10px;
+    }
+
+    .botao-instagram {
+      display: inline-block;
+      background-color: #E1306C;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .botao-instagram:hover {
+      background-color: #c22e5c;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #222;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">Minha Loja</div>
+    <p>Produtos exclusivos, direto do Instagram</p>
+  </header>
+
+  <section class="produtos">
+    <div class="produto">
+      <img src="https://via.placeholder.com/300x200" alt="Produto 1">
+      <h3>Produto 1</h3>
+      <p>R$ 99,90</p>
+      <a class="botao-instagram" href="https://instagram.com/seuusuario" target="_blank">Ver no Instagram</a>
+    </div>
+
+    <div class="produto">
+      <img src="https://via.placeholder.com/300x200" alt="Produto 2">
+      <h3>Produto 2</h3>
+      <p>R$ 79,90</p>
+      <a class="botao-instagram" href="https://instagram.com/seuusuario" target="_blank">Ver no Instagram</a>
+    </div>
+
+    <!-- Adicione mais produtos abaixo conforme necessário -->
+  </section>
+
+  <footer>
+    &copy; 2025 Minha Loja - Todos os direitos reservados
+  </footer>
+
+</body>
+</html>
